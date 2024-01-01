@@ -1,3 +1,7 @@
+import tkinter as tk
+form=tk.Tk()
+form.title('Ortalama Hesaplayıcı')
+
 a=sınav1=float(input("1. Sınav Notunu Gir:"))
 b=sınav2=float(input("2. Sınav Notunu Gir:"))
 c=sınav3=float(input("3. Sınav Notunu Gir:"))
@@ -11,6 +15,9 @@ if d>=50:
 elif d<50:
     print("Öğrenci Dersi Geçemedi.")
     print("Öğrenci Başarısız.")
+
+
+
 
 
 
