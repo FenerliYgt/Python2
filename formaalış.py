@@ -50,7 +50,7 @@ def ürünler():
             değer2=şortlar.get()
 
             fiyat=str(sözlük1[değer1])+str(sözlük2[değer2])==str(sözlük1[değer1])+str(sözlük2[değer2])[1:]+'TL'
-            toplam=tk.Label(form,text='Toplam Fiyat 700 TL')
+            toplam=tk.Label(form,text='Toplam Fiyat 2700 TL')
             toplam.place(x=170,y=400)
 
     buton=tk.Button(form,text='Hesapla',command=hesap)
